@@ -6,7 +6,13 @@
   "files": ["dist/modules/libsodium.js"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jedisct1/libsodium.js.git"
+    "url": "https://github.com/dlents/libsodium.js.git"
+  },
+  "dependencies": {
+    "fs": "latest",
+    "path": "latest",
+    "react-native-crypto": "latest",
+    "react-native-randombytes": "latest"
   },
   "keywords": [
     "crypto",
